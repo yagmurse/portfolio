@@ -1,0 +1,60 @@
+{
+  "_vendor-D4B0KdOn.js": {
+    "file": "assets/vendor-D4B0KdOn.js",
+    "name": "vendor"
+  },
+  "index.html": {
+    "file": "assets/main-B7WGAsKZ.js",
+    "name": "main",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-D4B0KdOn.js"
+    ],
+    "css": [
+      "assets/main-B50JQqUa.css"
+    ],
+    "assets": [
+      "assets/nature-5BzpA-y7.png",
+      "assets/avatar_image-x9BCFOL0.png",
+      "assets/github-BUfx7uqA.png",
+      "assets/menu-7ECIBRhM.svg",
+      "assets/close-B_PzD_gO.svg",
+      "assets/bogaziciLogo-RiZGDPQA.png",
+      "assets/kocLogo-CkHMWMFo.png",
+      "assets/notfound-DOFX7CwZ.svg"
+    ]
+  },
+  "src/assets/avatar_image.png": {
+    "file": "assets/avatar_image-x9BCFOL0.png",
+    "src": "src/assets/avatar_image.png"
+  },
+  "src/assets/close.svg": {
+    "file": "assets/close-B_PzD_gO.svg",
+    "src": "src/assets/close.svg"
+  },
+  "src/assets/company/bogaziciLogo.png": {
+    "file": "assets/bogaziciLogo-RiZGDPQA.png",
+    "src": "src/assets/company/bogaziciLogo.png"
+  },
+  "src/assets/company/kocLogo.png": {
+    "file": "assets/kocLogo-CkHMWMFo.png",
+    "src": "src/assets/company/kocLogo.png"
+  },
+  "src/assets/github.png": {
+    "file": "assets/github-BUfx7uqA.png",
+    "src": "src/assets/github.png"
+  },
+  "src/assets/images/notfound.svg": {
+    "file": "assets/notfound-DOFX7CwZ.svg",
+    "src": "src/assets/images/notfound.svg"
+  },
+  "src/assets/menu.svg": {
+    "file": "assets/menu-7ECIBRhM.svg",
+    "src": "src/assets/menu.svg"
+  },
+  "src/assets/nature.png": {
+    "file": "assets/nature-5BzpA-y7.png",
+    "src": "src/assets/nature.png"
+  }
+}
