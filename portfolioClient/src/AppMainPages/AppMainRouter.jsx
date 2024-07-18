@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import { Suspense } from "react";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import Layout from "./Layout";
 import MainLanding from "./MainLanding";
@@ -15,19 +15,7 @@ import {
   Profile,
   Error,
 } from "../pages";
-/*
-const About = lazy(() => import("../pages/About"));
-const Educations = lazy(() => import("../pages/Educations"));
-const Experience = lazy(() => import("../pages/Experience/Experience"));
-const Works = lazy(() => import("../pages/Works/Works"));
-const CreateJobPage = lazy(() =>
-  import("../pages/CreateJob/CreateJobPage.jsx")
-);
-const RegisterPage = lazy(() => import("../pages/Register/RegisterPage"));
-const LoginPage = lazy(() => import("../pages/Login/LoginPage"));
-const Profile = lazy(() => import("../pages/Profile"));
-const Error = lazy(() => import("../pages/errors/ErrorPage"));
-*/
+
 const AuthRedirect = ({ element }) => {
   const { isLoggedIn } = useSelector((state) => state.auth);
   if (isLoggedIn) {

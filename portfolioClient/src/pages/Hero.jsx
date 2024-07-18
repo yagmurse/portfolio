@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { lazy } from "react";
-//import { ComputersCanvas } from "../components/canvas";
-//const ComputersCanvas = lazy(() => import("../components/canvas/Computers"));
-//const ComputersCanvas = lazy(() =>
-//import("../components/babylonComputer/babylonComputer")
-//);
 import Computers from "../components/babylonComputer/babylonComputer";
 
 const Hero = () => {

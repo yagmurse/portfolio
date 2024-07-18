@@ -62,13 +62,13 @@ const authSlice = createSlice({
     isLoggedIn: false,
     loading: false,
     error: null,
-    justLoggedIn: false, // yeni durum
+    justLoggedIn: false,
   },
   reducers: {
     setUser(state, action) {
       state.user = action.payload;
       state.isLoggedIn = true;
-      state.justLoggedIn = false; // yeni
+      state.justLoggedIn = false;
     },
     clearUser(state) {
       state.user = null;
