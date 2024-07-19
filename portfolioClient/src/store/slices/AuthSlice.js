@@ -1,7 +1,5 @@
-// AuthSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import customFetch from "../../utils/customFetch.js";
-import Cookies from "js-cookie";
 
 export const registerUser = createAsyncThunk(
   "auth/register",

@@ -11,7 +11,7 @@ import { fetchJobs } from "../../store/slices/JobsSlice.js";
 
 const Experience = () => {
   const dispatch = useDispatch();
-  const { entities: jobs, loading, error } = useSelector((state) => state.jobs);
+  const { entities: jobs } = useSelector((state) => state.jobs);
   useEffect(() => {
     dispatch(fetchJobs());
   }, [dispatch]);

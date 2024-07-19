@@ -3,15 +3,7 @@ import { Navbar, Contact } from "../pages";
 import LoadingOverlay from "../components/canvas/LoadingOverlay/LoadingOverlay";
 import { useLocation } from "react-router-dom";
 import { Experience, Educations, CreateJobPage, Works, Hero } from "../pages";
-/*
-const Experience = lazy(() => import("../pages/Experience/Experience"));
-const Educations = lazy(() => import("../pages/Educations"));
-const CreateJobPage = lazy(() =>
-  import("../pages/CreateJob/CreateJobPage.jsx")
-);
-const Works = lazy(() => import("../pages/Works/Works"));
-const Hero = lazy(() => import("../pages/Hero"));
-*/
+
 const MainLanding = () => {
   const contactRef = useRef(null);
   const { pathname } = useLocation();

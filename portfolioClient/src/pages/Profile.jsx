@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { avatar_image } from "../assets";
 const Profile = () => {
-  const { user, isLoggedIn } = useSelector((state) => state.auth);
+  const { user } = useSelector((state) => state.auth);
   const [loggedOut, setLoggedOut] = useState(false);
   const navigate = useNavigate();
   const dispatch = useDispatch();
