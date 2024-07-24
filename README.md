@@ -6,13 +6,4 @@ A simple responsive personal CV website.
 
 ## Tech Stack
 
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- Redux
-- Axios
-- Tailwind CSS
-- Framer Motion
-- AWS
-- Vite
+- React.js, Vite, Node.js, MongoDB, Redux, Axios, Tailwind, AWS, Babylon.js
